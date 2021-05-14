@@ -4,8 +4,8 @@ String name,design;
 int age,sal;
 Scanner sc=new Scanner(System.in);
 void read(){
-System.out.println("\n enter name");
-name=sc.next();
+System.out.println(" enter name");
+name=sc.nextLine();
 System.out.println("Enter Age");
 age=sc.nextInt();
 System.out.println("Enter salary");
@@ -21,7 +21,7 @@ System.out.println("desgination:"+design);
 }
 void raise(){
 sal=sal+1000;
-System.out.println("\n salary raised-----");
+System.out.println(" salary raised-----");
 }
 }
 public class Emp{
